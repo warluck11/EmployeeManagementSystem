@@ -1,0 +1,15 @@
+package multithreading;
+
+class PrintNumber{
+	
+	
+	
+}
+
+public class ThreadExtends {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

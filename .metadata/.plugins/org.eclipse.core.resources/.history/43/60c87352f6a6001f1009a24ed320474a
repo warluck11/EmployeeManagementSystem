@@ -1,0 +1,37 @@
+
+
+Collection Interface : 
+
+1. List : 
+
+	- elements are stored in ordered manner (maintains the insertion order)
+	- elements can be accessed by using index 
+	- duplicates elements are allowed
+	
+2. Set :
+
+	- elements are not stored in ordered manner (does not maintain insertion order)
+	- elements can not be accessed by using index 
+	- duplicates elements are not allowed 
+	
+3. Queue : 
+
+	- elements are not stored in ordered manner (does not maintain insertion order)
+	- element can not be accessed by using index 
+	- duplicates elements are allowed
+	- in queue, elements are added from one side and removed from another
+	
+	
+	4. Deque : 
+		
+		- extends queue interface 
+	
+	
+	Generic And Non-Generic
+	
+		Generic : can have only one data type  (added in java 5)
+		Non-Generic : can have more than one data type
+	
+	
+	
+	

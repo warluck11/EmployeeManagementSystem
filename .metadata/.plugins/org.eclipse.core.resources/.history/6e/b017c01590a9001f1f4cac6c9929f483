@@ -1,0 +1,15 @@
+package multithreading;
+
+class Table{
+	
+	
+	
+}
+
+public class SynchronizedMethod {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

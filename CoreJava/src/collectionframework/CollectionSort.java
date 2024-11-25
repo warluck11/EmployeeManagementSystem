@@ -1,0 +1,57 @@
+package collectionframework;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class CollectionSort {
+	
+	public static void main(String[] args) {
+		
+		List<Integer> nums = new ArrayList<Integer>();
+		
+		nums.add(23);
+		nums.add(9);
+		nums.add(12);
+		nums.add(2);
+		
+		System.out.println(nums);
+		
+		Collections.sort(nums);
+		
+		System.out.println(nums);
+		
+		List<Student> studs = new ArrayList<Student>();
+		
+		studs.add(new Student(101, "Harry", 45));
+		studs.add(new Student(102, "Ron", 65));
+		studs.add(new Student(103, "A", 67));
+		studs.add(new Student(104, "Sam", 34));
+		
+		Collections.sort(studs);
+		
+		for(Student x : studs) {
+			System.out.println(x);
+		}
+		
+		System.out.println("----------------------");
+		
+		
+		Collections.sort(studs, new sortByName());
+		
+		for(Student x : studs) {
+			System.out.println(x);
+		}
+		
+		
+		System.out.println("----------------------");
+		
+		Collections.sort(studs, new sortByMarks());
+		
+		for(Student x : studs) {
+			System.out.println(x);
+		}
+		
+	}
+
+}

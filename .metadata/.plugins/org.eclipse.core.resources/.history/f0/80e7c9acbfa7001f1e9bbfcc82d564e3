@@ -1,0 +1,19 @@
+package collectionframework;
+
+class Student{
+	
+	int id;
+	String name;
+	int marks;
+	
+	
+	
+}
+
+public class CollectionFramework {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

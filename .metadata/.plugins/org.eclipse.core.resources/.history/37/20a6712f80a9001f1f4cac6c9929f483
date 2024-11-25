@@ -1,0 +1,114 @@
+
+
+Collection Interface : 
+
+1. List : 
+
+	- elements are stored in ordered manner (maintains the insertion order)
+	- elements can be accessed by using index 
+	- duplicates elements are allowed
+	
+2. Set :
+
+	- elements are not stored in ordered manner (does not maintain insertion order)
+	- elements can not be accessed by using index 
+	- duplicates elements are not allowed 
+	
+3. Queue : 
+
+	- elements are not stored in ordered manner (does not maintain insertion order)
+	- element can not be accessed by using index 
+	- duplicates elements are allowed
+	- in queue, elements are added from one side and removed from another
+	
+	
+	4. Deque : 
+		
+		- extends queue interface 
+		- in deque, elements can be added and removed from both the ends
+	
+	
+	Generic And Non-Generic
+	
+		Generic : can have only one data type  (added in java 5)
+		Non-Generic : can have more than one data type
+		
+		
+
+
+	* Map Interface : 
+	
+		elements are store in key value pairs 
+		
+		Key : user defined index 
+		
+		English : 34
+		Hindi : 55
+		
+		Key can not be duplicated but values can 
+		
+		
+		HashMap : does not retain the insertion order 
+		
+		LinkdeHashMap : does retain the insertion order
+		
+		TreeMap : does not retain the insertion order but keys will be in sorted manner
+		
+		
+	Differnent ways to iterator over collection 
+	
+	
+	1. Normal For Loop : 
+	
+			can be only used for list as here we have index for iteration 
+			
+	2. Enhance For Loop :
+	
+			can be used for any collection but only for reading and not for 
+			manipulating data 
+			
+	3. Iterator Interface : 
+	
+			can be used for any collection and can be used for both reading and 
+			manipulating data 
+			it can only travel in one direction 
+			
+			
+	4. ListIterator Interface : 
+	
+			it extends Iterator Interface and can only be used for List
+			it can travel in both directions
+			
+			
+			
+	 * Stream API : 
+	 
+	 		
+	 		- Added in Java 8 in java.util.stream package 
+	 		- to perform some operation on collection 
+	 		- stream API will not store data 
+	 		
+	 		
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

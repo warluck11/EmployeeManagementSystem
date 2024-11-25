@@ -1,0 +1,24 @@
+package oop;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamAPI {
+	
+	public static void main(String[] args) {
+		
+		List<String> subjects = new ArrayList<String>();
+		
+		subjects.add("Maths");
+		subjects.add("English");
+		subjects.add("History");
+		subjects.add("Hindi");
+		subjects.add("Geomerty");
+		
+		Stream<String> s1 = subjects.stream(); 
+		
+		
+	}
+
+}

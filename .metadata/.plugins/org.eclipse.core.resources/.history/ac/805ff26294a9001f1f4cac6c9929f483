@@ -1,0 +1,33 @@
+package multithreading;
+
+class Sender{
+	
+	public void sendMessage(String message) {
+		
+		System.out.println(message + " sending");
+		
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+		System.out.println("Message Received");
+	}
+	
+}
+
+class sendUsingThread extends Thread{
+	
+	
+	
+}
+
+
+public class Synchronizedblock {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

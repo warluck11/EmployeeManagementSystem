@@ -1,0 +1,32 @@
+package multithreading;
+
+class MainThread implements Runnable{
+	
+	@Override
+	public void run() {
+		System.out.println(Thread.currentThread().getName() + " Started");
+		System.out.println(Thread.currentThread().getName() + " Ended");
+	}
+	
+}
+
+class DemonThreadImpl implements Runnable{
+	
+	@Override
+	public void run() {
+		System.out.println(Thread.currentThread().getName() + " Started");
+		System.out.println(Thread.currentThread().getName() + " End");
+	}
+	
+}
+
+
+public class DemonThread {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

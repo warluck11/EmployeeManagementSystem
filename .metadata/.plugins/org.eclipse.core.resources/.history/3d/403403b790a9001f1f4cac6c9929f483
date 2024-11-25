@@ -1,0 +1,39 @@
+package multithreading;
+
+class Table{
+	
+	synchronized void printTable(int n){
+		for(int i = 1; i <= 10; i++) {
+			System.out.println(n + " X " + i + " = " + (n*i));
+			
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+			}
+			
+		}
+	}
+}
+
+class Thread1 extends Thread{
+	
+	@Override
+	public void run() {
+		
+	}
+	
+}
+
+class Thraed2 extends Thread{
+	
+}
+
+
+public class SynchronizedMethod {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

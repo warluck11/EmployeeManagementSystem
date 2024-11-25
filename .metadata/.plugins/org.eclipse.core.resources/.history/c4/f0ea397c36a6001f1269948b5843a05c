@@ -1,0 +1,32 @@
+package collectionframework;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GenericCollection {
+	
+	public static void main(String[] args) {
+		
+		//Non-Generic Collection
+		List list = new ArrayList();
+		
+		list.add("Aditya");
+		list.add("Vishal");
+		list.add("Sagar");
+		list.add("Tejas");
+		list.add(24);
+		list.add(45);
+		
+		for(Object o : list) {
+			System.out.println( ((String)o).toUpperCase() );
+		}
+		
+		
+		//Generic Collection 
+		
+		List<String> stringList =
+		
+	}
+
+}

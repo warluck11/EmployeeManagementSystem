@@ -1,0 +1,56 @@
+package collectionframework;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class Student{
+	
+	int id;
+	String name;
+	int marks;
+	
+	public Student(int id, String name, int marks) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.marks = marks;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", marks=" + marks + "]";
+	}
+	
+	
+	
+}
+
+public class CollectionFramework {
+	
+	public static void main(String[] args) {
+		
+		Student s1 = new Student(101, "Harry", 56);
+		Student s2 = new Student(102, "Ron", 89);
+		Student s3 = new Student(103, "Jhon", 51);
+		
+		Map<Integer, Student> students = new HashMap<Integer, Student>();
+		
+		students.put(s1.id, s1);
+		students.put(s2.id, s2);
+		students.put(s3.id, s3);
+		
+		System.out.println(students);
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+package multithreading;
+
+class PrintNumber extends Thread{
+	
+	@Override
+	public void run() {
+		
+		
+		
+	}
+	
+}
+
+public class ThreadExtends {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

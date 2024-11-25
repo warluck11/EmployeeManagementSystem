@@ -1,0 +1,16 @@
+package multithreading;
+
+class Sender{
+	
+	
+	
+}
+
+
+public class Synchronizedblock {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

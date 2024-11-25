@@ -1,0 +1,311 @@
+OOP => Object Oriented Programming 
+
+
+1. Class : 
+		
+		Class is empty template or blueprint
+		
+		
+		class <class_name>{
+		
+			Properties => Variables  
+			Behaviour  => Methods/Function
+			
+		}
+		
+		Naming Convention :
+		
+		Class Name : Pascal Case => First letter of each word will be Captital 
+		
+				NewPerson
+				
+		Variables 
+		Methods  : camelCase => from second word the first letter will be captial 
+		
+			mathsMarks 
+			getMarks 
+			
+			
+			
+		Variable => store the data 
+		Function => will work on the data saved
+		
+		
+		Function :
+		
+			1. Declare a function 
+			2. Call/Invoke a function 
+			
+			
+			1. 
+			
+			Sytanx
+			
+			
+			access_sepcifier return_type method_name(parameters...){
+			
+			
+				return statement;
+			
+			}  
+			
+			
+			
+			Constructor :
+			
+				Is a special method 
+				
+				1. Method name should be same as the class name 
+				2. gets invoked while object creation 
+				3. does not have return statement
+				
+				
+				this keyword : 
+				
+					this keyword will point toward current class instance
+					
+					
+					Types of Constructor :
+					
+					1. Default constructor 
+					2. No-Args Constructor 
+					3. Parameteried Constructor
+		
+		
+		
+2. Object (Instance) : 
+
+		Object is real world entity represented digitally. 
+		
+		<class_name> <var_name> = new <class_name>();
+		
+		
+		
+		
+		
+3. Inheritance : 
+
+		Parenet class properties and behaviour will be inherited by 
+		child class 
+		
+		
+		
+		Types of Inheritance 
+		
+		1. Single Level 
+		2. Multilevel
+		3. Multiple
+		4. Hierarchical 
+		5. Hybrid		
+		
+		Constructor in Inheritance :
+		
+			When we create the object of child class it will also 
+			create the object of parent class invoking the parent 
+			class constructor. 
+			
+			super keyword : 
+						
+			super keyword will refere to the parent class 
+			super()  will invoke the parent class constror 
+			
+			
+			Constructor overloading
+			
+				many constructors in same classes  
+				
+				
+				
+			Encapsulation : 
+			
+				binding the related data together is know as the encapsulation 
+				
+				
+				while creating a package 
+				
+				com.company_name.project_name
+				
+				Getter & Setter 
+				
+				
+				Setter will set the value of private variable 
+				
+				Getter will get the value of private variable 
+				
+				
+					//Setter
+					void setRoll_No(int roll_no) {
+						this.roll_no = roll_no;
+					}
+					
+					//Getter
+					int getRoll_No() {
+						return this.roll_no;
+					}
+							
+				
+			Non Access Modifier : 
+			
+			1. static 
+			
+				static keyword can be use for variables and methods 
+				
+				if you want to access static members in same class 
+				the you only need to write variable and method name 
+				
+				but if you want access static members in another class 
+				the you can use class reference name 
+				
+			
+			2. final 
+			
+				final keyword can be used on class, variables and methods 
+				
+				
+				final class : cannot be inherited 
+				final method : cannot be override 
+				final variable : once given the value can not be updated (Constant)
+								Value can be given at the time of declaration 
+								or using constrctor 
+								
+								
+								
+		
+			Abstraction :
+			
+				 Hiding the implementation from user 
+				 
+				 Abstraction is achived through 
+				 
+				 1. abstract keyword 
+				 2. interface 
+				 
+				 1. abstract keyword 
+				 
+				 	can be used for class and methods 
+				 	
+				 	
+				 	Abstract Class : 
+				 	
+				 	1. can not create the obj of abstract class 
+				 	2. can have non abstract and abstract method 
+				 	
+				 	Abstract Method : 
+				 	
+				 	1. at the time of declaration abstract method does not have a body
+				 	2. you hvae to inherite the class and override the abstract method
+				 	3. abstract method can only exist in abstract class  
+				
+				
+				
+				2. Interface : 
+				
+					interface is a special class 
+					
+					
+					1. we can not create the obj of interface
+					2. interface can not have a constructor 
+					3. by default every method interface is Public and Abstract
+					4. by default every vairable in interface is 
+						Public, Static and Final
+					5. we can inherite the interface in class but have to use 
+						implements keyword insted of extends 
+					6. one class can inherite multiple interface
+					
+					
+					
+					
+					Types of Interfaces :
+					
+					1. Nested Interface : 
+							
+							Interface inside the interface 
+							
+					2. Extended Interface : 
+					
+							inheriting the interface in interface 
+							
+					3. Funcational Interface : 
+					
+							the interface which can have only one method 
+							we have to use @FunctionalInterface annotation 
+							
+					4. Marker Interface : 
+					
+							the empty interface 
+							it is used for marking purpose
+							
+							
+							
+							class -> class 		   => extends 
+							interface -> interface => extends 
+							interface -> class     => implements 
+							
+							
+						New Methods added in Interface 
+						
+						
+						non-abstract methods 
+						
+						Java 8 - 
+						
+							1. default method 
+							2. static method 
+							
+						Java 9 - 
+						
+							1. private method 
+							2. private static method
+						
+						
+						
+					lambda Expression (Arrow Function) : 
+					
+						use to implement the functional interface 
+						
+						
+						sytanx : 
+						
+							access_modifier return_type method_name(parameters){
+								
+								body
+							
+							}
+							
+							
+							(parameter) -> {body};
+							
+							
+							1. No-Parameter : 
+							
+							A var = () -> { body };
+							
+							2. One Parameter : 
+							
+							A var = i -> {body};	
+							
+							3. More than One Parameter : 
+							
+							A var = (i,j) -> {body};
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		
+		
+		
+		
+		

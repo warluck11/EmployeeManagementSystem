@@ -1,0 +1,11 @@
+package collectionframework;
+
+public class GenericCollection {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

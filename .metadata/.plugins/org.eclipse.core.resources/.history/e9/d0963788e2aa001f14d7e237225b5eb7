@@ -1,0 +1,17 @@
+JDBCC API : Java Database Connectivity 
+
+
+	Consist of many classes and interfaces required to connect java with database 
+	This API is part of java.sql package 
+	
+	JDBC Driver is a software which enables us to interact with Database 
+	
+	-----------------------------------------------------------------------------
+	
+	
+	Add the JDBC Driver to your project : 
+	
+	1. Create a new Project in Eclipse IDE 
+	2. Right-Click on project then click on Java Build Path then select Configure 
+		Java Build Path
+	

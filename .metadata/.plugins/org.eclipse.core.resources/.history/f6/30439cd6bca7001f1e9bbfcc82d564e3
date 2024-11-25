@@ -1,0 +1,9 @@
+package collectionframework;
+
+public class ListLiteratorInterface {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

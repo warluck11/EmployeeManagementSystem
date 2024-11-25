@@ -1,0 +1,23 @@
+package multithreading;
+
+class MainThread implements Runnable{
+	
+	@Override
+	public void run() {
+		
+	}
+	
+}
+
+class DemonThread implements Runnable{
+	
+}
+
+
+public class DemonThread {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

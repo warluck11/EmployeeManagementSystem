@@ -1,0 +1,111 @@
+String - Non primative datatype  
+
+1. sequence of char 
+2. class in java.lang package
+
+String Creation 
+1. Using String Literal 
+2. Using String Object 
+
+
+Ways to convert Inmutable String in mutable 
+
+1. StringBuffer
+2. StringBulider 
+
+		1. StringBuffer 
+		
+			- added in Java 1
+			- all methods in stringBuffer are synchronized 
+			- sequential exectution 
+			- it is thread safe 
+			- less effiecent (slower)
+			
+		2. StringBulider 
+		
+			- added in java 5
+			- all methods in stringBulider are non-synchronized 
+			- parallel exeution 
+			- it is not thread safe 
+			- more effience (faster)			
+			
+			
+			
+		String Comparison : 
+		
+			1. == operator 
+			
+				- return boolean 
+				- compares the address of string 
+				- return true if both address are same 
+				
+			2. equals() 
+			
+				- return boolean 
+				- compares the value of string 
+				- return true if both values are same 
+				
+			3. compareTo()
+			
+				- return int 
+				- compares the value of string 
+				- return zero if both values are same 
+				
+				
+		DateTime API :
+		
+		
+			was introducted in Java 8 
+			
+			1. Local 
+			2. Zoned 
+			
+			
+			LocalDate 
+			LocalTime
+			LocalDateTime
+			
+			
+			
+			
+			Lambda Function : 
+			
+			
+				- used for the functional interface 
+				- to reduse our code 
+				
+				
+				access_modifiers return_type method_name(parameters..){
+						body
+				}
+				
+				Sytanx : 
+				
+					(parameter) -> {body}; 
+					
+					
+				1. No-arguments 
+				
+					() -> {body};
+					
+				2. One Argument
+				
+					name -> {body};
+					
+				3. More than one parameter 
+				
+					(x, y) -> {body}; 
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+
+

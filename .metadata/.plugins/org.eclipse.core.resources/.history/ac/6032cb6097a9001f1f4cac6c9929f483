@@ -1,0 +1,18 @@
+package multithreading;
+
+class MainThread{
+	
+}
+
+class DemonThread{
+	
+}
+
+
+public class DemonThread {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

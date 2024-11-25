@@ -1,0 +1,19 @@
+package collectionframework;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MpaInterface {
+	
+	public static void main(String[] args) {
+		
+		Map<String, Integer> marks = new HashMap<String, Integer>();
+		
+		marks.put("English", 33);
+		marks.put("Hindi", 55);
+		
+		System.out.println(marks);
+		
+	}
+
+}

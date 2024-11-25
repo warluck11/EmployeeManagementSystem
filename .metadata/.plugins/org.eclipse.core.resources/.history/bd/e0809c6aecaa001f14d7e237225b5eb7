@@ -1,0 +1,30 @@
+package com.itvedant.employee;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeService {
+	
+	static Connection con = DBConnect.getConnection();
+	
+	public List<Employee> readRecords(){
+		
+		List<Employee> employees = new ArrayList<Employee>();
+		
+		String query = "select * from employee";
+		
+		try {
+			
+			
+			
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+		
+		return employees;
+	}
+	
+
+}

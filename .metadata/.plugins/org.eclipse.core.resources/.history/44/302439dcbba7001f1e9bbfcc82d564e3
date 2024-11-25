@@ -1,0 +1,9 @@
+package collectionframework;
+
+public class Iteratorinterface {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

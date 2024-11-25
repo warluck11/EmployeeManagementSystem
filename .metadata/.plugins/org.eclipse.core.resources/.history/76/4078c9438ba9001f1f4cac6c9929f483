@@ -1,0 +1,9 @@
+package multithreading;
+
+public class ImplementingRunnable {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
